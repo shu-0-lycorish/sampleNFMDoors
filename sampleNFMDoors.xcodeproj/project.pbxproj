@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CB9CAF52A49D281000B69A3 /* sampleNFMDoorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CAF42A49D281000B69A3 /* sampleNFMDoorsApp.swift */; };
+		8CB9CAF72A49D281000B69A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CAF62A49D281000B69A3 /* ContentView.swift */; };
+		8CB9CAF92A49D284000B69A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9CAF82A49D284000B69A3 /* Assets.xcassets */; };
+		8CB9CAFC2A49D285000B69A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9CAFB2A49D285000B69A3 /* Preview Assets.xcassets */; };
+		8CB9CB062A49D285000B69A3 /* sampleNFMDoorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB052A49D285000B69A3 /* sampleNFMDoorsTests.swift */; };
+		8CB9CB102A49D285000B69A3 /* sampleNFMDoorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB0F2A49D285000B69A3 /* sampleNFMDoorsUITests.swift */; };
+		8CB9CB122A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB112A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CB9CB022A49D285000B69A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB9CAE92A49D280000B69A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB9CAF02A49D281000B69A3;
+			remoteInfo = sampleNFMDoors;
+		};
+		8CB9CB0C2A49D285000B69A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CB9CAE92A49D280000B69A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CB9CAF02A49D281000B69A3;
+			remoteInfo = sampleNFMDoors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CB9CAF12A49D281000B69A3 /* sampleNFMDoors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleNFMDoors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB9CAF42A49D281000B69A3 /* sampleNFMDoorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsApp.swift; sourceTree = "<group>"; };
+		8CB9CAF62A49D281000B69A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CB9CAF82A49D284000B69A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB9CAFB2A49D285000B69A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CB9CB012A49D285000B69A3 /* sampleNFMDoorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleNFMDoorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB9CB052A49D285000B69A3 /* sampleNFMDoorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsTests.swift; sourceTree = "<group>"; };
+		8CB9CB0B2A49D285000B69A3 /* sampleNFMDoorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleNFMDoorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB9CB0F2A49D285000B69A3 /* sampleNFMDoorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsUITests.swift; sourceTree = "<group>"; };
+		8CB9CB112A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB9CAEE2A49D281000B69A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9CAFE2A49D285000B69A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9CB082A49D285000B69A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB9CAE82A49D280000B69A3 = {
+			isa = PBXGroup;
+			children = (
+				8CB9CAF32A49D281000B69A3 /* sampleNFMDoors */,
+				8CB9CB042A49D285000B69A3 /* sampleNFMDoorsTests */,
+				8CB9CB0E2A49D285000B69A3 /* sampleNFMDoorsUITests */,
+				8CB9CAF22A49D281000B69A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB9CAF22A49D281000B69A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9CAF12A49D281000B69A3 /* sampleNFMDoors.app */,
+				8CB9CB012A49D285000B69A3 /* sampleNFMDoorsTests.xctest */,
+				8CB9CB0B2A49D285000B69A3 /* sampleNFMDoorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB9CAF32A49D281000B69A3 /* sampleNFMDoors */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9CAF42A49D281000B69A3 /* sampleNFMDoorsApp.swift */,
+				8CB9CAF62A49D281000B69A3 /* ContentView.swift */,
+				8CB9CAF82A49D284000B69A3 /* Assets.xcassets */,
+				8CB9CAFA2A49D285000B69A3 /* Preview Content */,
+			);
+			path = sampleNFMDoors;
+			sourceTree = "<group>";
+		};
+		8CB9CAFA2A49D285000B69A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9CAFB2A49D285000B69A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8CB9CB042A49D285000B69A3 /* sampleNFMDoorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9CB052A49D285000B69A3 /* sampleNFMDoorsTests.swift */,
+			);
+			path = sampleNFMDoorsTests;
+			sourceTree = "<group>";
+		};
+		8CB9CB0E2A49D285000B69A3 /* sampleNFMDoorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9CB0F2A49D285000B69A3 /* sampleNFMDoorsUITests.swift */,
+				8CB9CB112A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift */,
+			);
+			path = sampleNFMDoorsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB9CAF02A49D281000B69A3 /* sampleNFMDoors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB9CB152A49D285000B69A3 /* Build configuration list for PBXNativeTarget "sampleNFMDoors" */;
+			buildPhases = (
+				8CB9CAED2A49D281000B69A3 /* Sources */,
+				8CB9CAEE2A49D281000B69A3 /* Frameworks */,
+				8CB9CAEF2A49D281000B69A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleNFMDoors;
+			productName = sampleNFMDoors;
+			productReference = 8CB9CAF12A49D281000B69A3 /* sampleNFMDoors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CB9CB002A49D285000B69A3 /* sampleNFMDoorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB9CB182A49D285000B69A3 /* Build configuration list for PBXNativeTarget "sampleNFMDoorsTests" */;
+			buildPhases = (
+				8CB9CAFD2A49D285000B69A3 /* Sources */,
+				8CB9CAFE2A49D285000B69A3 /* Frameworks */,
+				8CB9CAFF2A49D285000B69A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB9CB032A49D285000B69A3 /* PBXTargetDependency */,
+			);
+			name = sampleNFMDoorsTests;
+			productName = sampleNFMDoorsTests;
+			productReference = 8CB9CB012A49D285000B69A3 /* sampleNFMDoorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CB9CB0A2A49D285000B69A3 /* sampleNFMDoorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB9CB1B2A49D285000B69A3 /* Build configuration list for PBXNativeTarget "sampleNFMDoorsUITests" */;
+			buildPhases = (
+				8CB9CB072A49D285000B69A3 /* Sources */,
+				8CB9CB082A49D285000B69A3 /* Frameworks */,
+				8CB9CB092A49D285000B69A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CB9CB0D2A49D285000B69A3 /* PBXTargetDependency */,
+			);
+			name = sampleNFMDoorsUITests;
+			productName = sampleNFMDoorsUITests;
+			productReference = 8CB9CB0B2A49D285000B69A3 /* sampleNFMDoorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB9CAE92A49D280000B69A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8CB9CAF02A49D281000B69A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8CB9CB002A49D285000B69A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8CB9CAF02A49D281000B69A3;
+					};
+					8CB9CB0A2A49D285000B69A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8CB9CAF02A49D281000B69A3;
+					};
+				};
+			};
+			buildConfigurationList = 8CB9CAEC2A49D280000B69A3 /* Build configuration list for PBXProject "sampleNFMDoors" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB9CAE82A49D280000B69A3;
+			productRefGroup = 8CB9CAF22A49D281000B69A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB9CAF02A49D281000B69A3 /* sampleNFMDoors */,
+				8CB9CB002A49D285000B69A3 /* sampleNFMDoorsTests */,
+				8CB9CB0A2A49D285000B69A3 /* sampleNFMDoorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB9CAEF2A49D281000B69A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB9CAFC2A49D285000B69A3 /* Preview Assets.xcassets in Resources */,
+				8CB9CAF92A49D284000B69A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9CAFF2A49D285000B69A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9CB092A49D285000B69A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB9CAED2A49D281000B69A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB9CAF72A49D281000B69A3 /* ContentView.swift in Sources */,
+				8CB9CAF52A49D281000B69A3 /* sampleNFMDoorsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9CAFD2A49D285000B69A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB9CB062A49D285000B69A3 /* sampleNFMDoorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB9CB072A49D285000B69A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB9CB122A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift in Sources */,
+				8CB9CB102A49D285000B69A3 /* sampleNFMDoorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CB9CB032A49D285000B69A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB9CAF02A49D281000B69A3 /* sampleNFMDoors */;
+			targetProxy = 8CB9CB022A49D285000B69A3 /* PBXContainerItemProxy */;
+		};
+		8CB9CB0D2A49D285000B69A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CB9CAF02A49D281000B69A3 /* sampleNFMDoors */;
+			targetProxy = 8CB9CB0C2A49D285000B69A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CB9CB132A49D285000B69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB9CB142A49D285000B69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB9CB162A49D285000B69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sampleNFMDoors/Preview Content\"";
+				DEVELOPMENT_TEAM = B98B6A4NMK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.sampleNFMDoors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CB9CB172A49D285000B69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sampleNFMDoors/Preview Content\"";
+				DEVELOPMENT_TEAM = B98B6A4NMK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.sampleNFMDoors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CB9CB192A49D285000B69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98B6A4NMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.sampleNFMDoorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleNFMDoors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sampleNFMDoors";
+			};
+			name = Debug;
+		};
+		8CB9CB1A2A49D285000B69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98B6A4NMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.sampleNFMDoorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleNFMDoors.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sampleNFMDoors";
+			};
+			name = Release;
+		};
+		8CB9CB1C2A49D285000B69A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98B6A4NMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.sampleNFMDoorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sampleNFMDoors;
+			};
+			name = Debug;
+		};
+		8CB9CB1D2A49D285000B69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98B6A4NMK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.sampleNFMDoorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sampleNFMDoors;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB9CAEC2A49D280000B69A3 /* Build configuration list for PBXProject "sampleNFMDoors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB9CB132A49D285000B69A3 /* Debug */,
+				8CB9CB142A49D285000B69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB9CB152A49D285000B69A3 /* Build configuration list for PBXNativeTarget "sampleNFMDoors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB9CB162A49D285000B69A3 /* Debug */,
+				8CB9CB172A49D285000B69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB9CB182A49D285000B69A3 /* Build configuration list for PBXNativeTarget "sampleNFMDoorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB9CB192A49D285000B69A3 /* Debug */,
+				8CB9CB1A2A49D285000B69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB9CB1B2A49D285000B69A3 /* Build configuration list for PBXNativeTarget "sampleNFMDoorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB9CB1C2A49D285000B69A3 /* Debug */,
+				8CB9CB1D2A49D285000B69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB9CAE92A49D280000B69A3 /* Project object */;
+}
