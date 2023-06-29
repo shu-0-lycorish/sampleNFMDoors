@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C5E00462A4B6DE500166AD3 /* SettingUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E00452A4B6DE500166AD3 /* SettingUserView.swift */; };
+		8C5E00482A4B7CE000166AD3 /* SettingStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E00472A4B7CE000166AD3 /* SettingStoreView.swift */; };
+		8C5E004A2A4CC30700166AD3 /* SettingAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E00492A4CC30700166AD3 /* SettingAppView.swift */; };
+		8C5E004C2A4CC38200166AD3 /* SettingFAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E004B2A4CC38200166AD3 /* SettingFAQView.swift */; };
+		8C5E004E2A4CC39900166AD3 /* SettingContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5E004D2A4CC39900166AD3 /* SettingContactView.swift */; };
 		8CB9CAF52A49D281000B69A3 /* sampleNFMDoorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CAF42A49D281000B69A3 /* sampleNFMDoorsApp.swift */; };
 		8CB9CAF72A49D281000B69A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CAF62A49D281000B69A3 /* ContentView.swift */; };
 		8CB9CAF92A49D284000B69A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9CAF82A49D284000B69A3 /* Assets.xcassets */; };
@@ -14,6 +19,9 @@
 		8CB9CB062A49D285000B69A3 /* sampleNFMDoorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB052A49D285000B69A3 /* sampleNFMDoorsTests.swift */; };
 		8CB9CB102A49D285000B69A3 /* sampleNFMDoorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB0F2A49D285000B69A3 /* sampleNFMDoorsUITests.swift */; };
 		8CB9CB122A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB112A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift */; };
+		8CB9CB212A49DA5D000B69A3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB202A49DA5D000B69A3 /* HomeView.swift */; };
+		8CB9CB232A49DA92000B69A3 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB222A49DA92000B69A3 /* DiaryView.swift */; };
+		8CB9CB252A49DAAD000B69A3 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9CB242A49DAAD000B69A3 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C5E00452A4B6DE500166AD3 /* SettingUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUserView.swift; sourceTree = "<group>"; };
+		8C5E00472A4B7CE000166AD3 /* SettingStoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStoreView.swift; sourceTree = "<group>"; };
+		8C5E00492A4CC30700166AD3 /* SettingAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingAppView.swift; sourceTree = "<group>"; };
+		8C5E004B2A4CC38200166AD3 /* SettingFAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingFAQView.swift; sourceTree = "<group>"; };
+		8C5E004D2A4CC39900166AD3 /* SettingContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingContactView.swift; sourceTree = "<group>"; };
 		8CB9CAF12A49D281000B69A3 /* sampleNFMDoors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleNFMDoors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB9CAF42A49D281000B69A3 /* sampleNFMDoorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsApp.swift; sourceTree = "<group>"; };
 		8CB9CAF62A49D281000B69A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,9 @@
 		8CB9CB0B2A49D285000B69A3 /* sampleNFMDoorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleNFMDoorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB9CB0F2A49D285000B69A3 /* sampleNFMDoorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsUITests.swift; sourceTree = "<group>"; };
 		8CB9CB112A49D285000B69A3 /* sampleNFMDoorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleNFMDoorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB9CB202A49DA5D000B69A3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8CB9CB222A49DA92000B69A3 /* DiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		8CB9CB242A49DAAD000B69A3 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,14 @@
 			children = (
 				8CB9CAF42A49D281000B69A3 /* sampleNFMDoorsApp.swift */,
 				8CB9CAF62A49D281000B69A3 /* ContentView.swift */,
+				8CB9CB202A49DA5D000B69A3 /* HomeView.swift */,
+				8CB9CB222A49DA92000B69A3 /* DiaryView.swift */,
+				8CB9CB242A49DAAD000B69A3 /* SettingView.swift */,
+				8C5E00452A4B6DE500166AD3 /* SettingUserView.swift */,
+				8C5E00472A4B7CE000166AD3 /* SettingStoreView.swift */,
+				8C5E00492A4CC30700166AD3 /* SettingAppView.swift */,
+				8C5E004B2A4CC38200166AD3 /* SettingFAQView.swift */,
+				8C5E004D2A4CC39900166AD3 /* SettingContactView.swift */,
 				8CB9CAF82A49D284000B69A3 /* Assets.xcassets */,
 				8CB9CAFA2A49D285000B69A3 /* Preview Content */,
 			);
@@ -257,7 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5E004E2A4CC39900166AD3 /* SettingContactView.swift in Sources */,
+				8C5E00482A4B7CE000166AD3 /* SettingStoreView.swift in Sources */,
+				8C5E004A2A4CC30700166AD3 /* SettingAppView.swift in Sources */,
+				8C5E00462A4B6DE500166AD3 /* SettingUserView.swift in Sources */,
+				8CB9CB212A49DA5D000B69A3 /* HomeView.swift in Sources */,
+				8CB9CB252A49DAAD000B69A3 /* SettingView.swift in Sources */,
+				8C5E004C2A4CC38200166AD3 /* SettingFAQView.swift in Sources */,
 				8CB9CAF72A49D281000B69A3 /* ContentView.swift in Sources */,
+				8CB9CB232A49DA92000B69A3 /* DiaryView.swift in Sources */,
 				8CB9CAF52A49D281000B69A3 /* sampleNFMDoorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
