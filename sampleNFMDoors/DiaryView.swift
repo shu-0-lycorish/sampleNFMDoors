@@ -105,6 +105,7 @@ struct DiaryView: View {
                 .padding(.vertical, 5)
                 .padding(.horizontal, 15)
                 
+                Spacer()
             }
         }
     }
